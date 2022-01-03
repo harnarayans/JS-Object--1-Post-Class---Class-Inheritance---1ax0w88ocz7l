@@ -1,21 +1,15 @@
 // declare class
 class Shape {
-    drawShape(radius, color){
-    this.radius = radius;
-    this.color = color;
+    var color;	
+    drawShape(){
     }
-    calculateArea() {
-        return `
-      Radius: ${this.radius}
-    `;
-	}
+    calculateArea() {    
+    }
     color(){
         return `
       Color: ${this.color}
     `;
-
     }
-
 }
 
 module.exports = user;
